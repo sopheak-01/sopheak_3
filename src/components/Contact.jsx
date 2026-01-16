@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
-
+// hello
 export default function Contact() {
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -8,7 +8,7 @@ export default function Contact() {
       opacity: 1,
       transition: {
         staggerChildren: 0.2,
-      },
+      }
     },
   };
 
