@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaEnvelope, FaCode, FaRocket } from 'react-icons/fa';
+import profileImage from '../assets/profile.jpg';
 
 export default function Hero() {
   const containerVariants = {
@@ -56,7 +57,7 @@ export default function Hero() {
             >
               <div className="w-64 h-64 rounded-full ring ring-primary ring-offset-base-100 ring-offset-4 overflow-hidden shadow-2xl">
                 <img
-                  src="./src/assets/profile.jpg"
+                  src={profileImage}
                   alt="Nhel Sopheak"
                   className="w-full h-full object-cover"
                 />
