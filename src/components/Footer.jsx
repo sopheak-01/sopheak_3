@@ -1,9 +1,7 @@
 import { motion } from 'framer-motion';
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
-
+import { FaGithub, FaTelegram, FaTwitter } from 'react-icons/fa';
 export default function Footer() {
   const currentYear = new Date().getFullYear();
-
   return (
     <footer className="bg-base-300 text-base-content">
       <div className="container mx-auto px-4 py-12">
@@ -58,11 +56,11 @@ export default function Footer() {
                   <FaGithub />
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://t.me/nhelsopheak"
                   className="text-2xl hover:text-primary transition"
-                  aria-label="LinkedIn"
+                  aria-label="Telegram"
                 >
-                  <FaLinkedin />
+                  <FaTelegram />
                 </a>
                 <a
                   href="https://twitter.com"

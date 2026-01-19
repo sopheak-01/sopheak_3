@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FaGithub, FaLinkedin, FaEnvelope, FaCode, FaRocket } from 'react-icons/fa';
+import { FaGithub, FaTelegram, FaEnvelope, FaCode, FaRocket } from 'react-icons/fa';
 import profileImage from '../assets/profile.jpg';
 
 export default function Hero() {
@@ -103,14 +103,14 @@ export default function Hero() {
               <FaGithub size={24} />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://t.me/nhelsopheak"
               className="btn btn-circle btn-info shadow-lg hover:shadow-xl"
-              aria-label="LinkedIn"
+              aria-label="Telegram"
             >
-              <FaLinkedin size={24} />
+              <FaTelegram size={24} />
             </a>
             <a
-              href="mailto:hello@example.com"
+              href="veizei95@gmail.com"
               className="btn btn-circle btn-success shadow-lg hover:shadow-xl"
               aria-label="Email"
             >
